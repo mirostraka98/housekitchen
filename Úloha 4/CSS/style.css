@@ -1,0 +1,128 @@
+body {
+    color: #5E5E5E;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.site-header {
+    background-color: #e74c3c;
+    text-align: center;
+    margin: -20px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 12px 22px 11px;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.container-menu a:hover {
+    background: #AD2105;
+}
+
+.logo a {
+    width: 260px;
+    height: 144px;
+    display: inline-block;
+    background: url(../img/logo.svg);
+    text-indent: -9999px;
+    text-align: center;
+}    
+
+.logo {
+    text-align: center;
+    padding-top: 80px;
+}
+
+img {
+    width: 700px;
+    padding-bottom: 80px;
+}
+
+.container-article {
+    text-align: center;
+    padding: 80px;
+}
+
+h1 {
+    color: #E74C3C;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+    padding-left: 24%;
+    padding-right: 24%;
+    line-height: 44px;
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px
+}
+
+
+
+.button {
+    margin-top: 100px;
+    text-decoration: none;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    padding: 20px 15px;
+    background: #e74c3c;
+    border: 1px solid #e74c3c;
+    margin: 0 auto;
+    font-size: 19px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1px;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.button:hover {
+    color: #e74c3c;
+    background: white;
+}
+
+footer {
+    background: #e74c3c;
+    padding: 100px;
+    text-align: center;
+}
+
+
+i {
+    color: #F76D51;
+    font-size: 60px;
+    text-align: center;
+}
+
+footer i:hover {
+    color: white;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
